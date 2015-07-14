@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.2.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_2_0.dtd">
+
+<hook>
+	<portal-properties>portal.properties</portal-properties>
+	<language-properties>content/Language_en.properties</language-properties>
+    <custom-jsp-dir>/META-INF/custom_jsps</custom-jsp-dir>
+    <struts-action>
+        <struts-action-path>/login/login</struts-action-path>
+        <struts-action-impl>com.shail.liferay.hook.action.ExampleStrutsPortletAction</struts-action-impl>
+    </struts-action>
+    <!-- 
+	    <struts-action>
+		    <struts-action-path>/portal/sample</struts-action-path>
+		    <struts-action-impl>
+		    	com.shail.liferay.hook.action.ExampleStrutsAction
+		    </struts-action-impl>
+		</struts-action>
+		
+		<struts-action>
+		    <struts-action-path>/login/login2</struts-action-path>
+		    <struts-action-impl>
+		    	com.shail.liferay.hook.action.ExampleStrutsPortletAction
+		    </struts-action-impl>
+		</struts-action>
+	 
+    <struts-action>
+        <struts-action-path>/login/login</struts-action-path>
+        <struts-action-impl>com.shail.liferay.hook.action.ExampleStrutsPortletAction</struts-action-impl>
+    </struts-action>
+    -->
+</hook>
